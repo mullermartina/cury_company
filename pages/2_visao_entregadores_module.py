@@ -100,7 +100,7 @@ df1 = clean_code( df )
 st.header( 'Marketplace- Visão Entregadores' )
 
 
-image_path = 'logo.png'
+image_path = 'logo2.png'
 image = Image.open( image_path ) #Image é a biblio
 st.sidebar.image( image, width=120)
 

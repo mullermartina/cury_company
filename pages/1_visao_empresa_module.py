@@ -38,7 +38,6 @@ def clean_code( df1 ): #o df do parametro deve ser o mesmo df q tá no código
     df1 = df1.loc[linhas_selecionadas, :].copy()
 
     df1['Delivery_person_Age'] = df1['Delivery_person_Age'].astype( int )
-    df1.shape
     
     # 2. convertendo a coluna Ratings de texto para numero decimal ( float )
     df1['Delivery_person_Ratings'] = df1['Delivery_person_Ratings'].astype( float )
@@ -162,7 +161,7 @@ st.header( 'Marketplace- Visão Cliente' )
 #st.header('This is a header') # meigarom copiou esse comando da documentação do streamlit
 #após copiar, ele foi no terminal e, ao inves de python visao_empresa.py, passou streamlit run visao_empresa.py
 
-image_path = 'logo.png' #pra ter certeza q o caminho do arq ta certo, poso abrir outro terminal (outro! 1 ta ocupado com o streamlit)
+image_path = 'logo2.png' #pra ter certeza q o caminho do arq ta certo, poso abrir outro terminal (outro! 1 ta ocupado com o streamlit)
 # ls - l e ai vejo q a imagem ta na pasta q to trabalhando. comando pwd no terminal da todo caminho do arq (repos blabla)
 # ai dnetro das aspas posso colocar toooodo caminho. algo tipo 'documents/repos/ftc..'
 #image_path= 'Users\Administrator\Documents\repos\repos_2023\ftc_programacao_python' .. testei e nao deu certo ee

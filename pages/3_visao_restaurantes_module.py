@@ -145,7 +145,7 @@ df1 = clean_code( df ) #vi que o meigarom nem faz copia... a propria limpeza uma
 st.header( 'Marketplace- Visão Entregadores' )
 
 #meigarom foi ate o powered by comunidade ds e decidiu por uma imagem. comandos dessa açao abaixo
-image_path = 'logo.png' #pra ter certeza q o caminho do arq ta certo, poso abrir outro terminal (outro! 1 ta ocupado com o streamlit)
+image_path = 'logo2.png' #pra ter certeza q o caminho do arq ta certo, poso abrir outro terminal (outro! 1 ta ocupado com o streamlit)
 # ls - l e ai vejo q a imagem ta na pasta q to trabalhando. comando pwd no terminal da todo caminho do arq (repos blabla)
 # ai dnetro das aspas posso colocar toooodo caminho. algo tipo 'documents/repos/ftc..'
 #image_path= 'Users\Administrator\Documents\repos\repos_2023\ftc_programacao_python' .. testei e nao deu certo ee
